@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
 
-export default class Product extends Component {
+import "./style.css";
+
+export default class Products extends Component {
 
     state = {
         product: {},
@@ -33,6 +35,4 @@ export default class Product extends Component {
 
         );
     }
-
-
 }
